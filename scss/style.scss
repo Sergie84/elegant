@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:400,700');
+@import "normalize";
+@import "layout";
+
+
+$R-font: 'Raleway', sans-serif;
+$L-font: 'Lato', sans-serif;
+body{
+
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	max-width: 1600px;
+	height: 3886px;
+	overflow: visible;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.intro{
+
+	background-image: url(../img/intro-background.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1000px;
+	overflow: visible;
+
+	&-logo {
+			
+			padding-left: 215px;
+			padding-top: 50px;
+			color: #fff;
+			text-transform: uppercase;
+	}
+	&-menu{
+		  margin-top: -35px;
+		  padding-right: 230px;
+          
+	}
+	&-menu-list{
+		  
+         
+	}
+	&-menu__list-item{
+		font-family: $L-font;
+		font-size: 14px;
+		font-weight: 400;
+		list-style: none;
+        color:#fffffe;
+        text-transform: uppercase;
+        float:right;
+        padding-right: 50px;
+	}
+
+	&-header{
+		
+		
+		padding-top: 220px;
+		text-align: center;
+		
+	}
+	&-header__title{
+		font-family: $R-font;
+		font-size: 48px;
+		font-weight: 700;
+		color: #fffffe;
+		text-transform: uppercase;
+	}
+
+	&-header__title-moto{
+		
+
+	}
+}
+
+.intro-moto {
+		
+		color:#fffffe;
+		text-align: center;
+		font-family: $L-font;
+		font-size: 22px;
+		line-height: 30px;
+		font-weight: 400;
+		padding-top: 15px;
+
+}
+
+.intro-arrow{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+
+}
+
+
+.our-services{
+	width: inherit;
+	height: 740px;
+	text-align: center;
+	margin-top: -200px;
+
+	&--header{
+		font-family: $R-font;
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 60px;
+		text-align: center;
+		text-transform: uppercase;
+
+	}
+	&__pictures{
+         display: flex;
+
+	}
+
+
+}
